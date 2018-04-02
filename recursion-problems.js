@@ -92,18 +92,50 @@
 
 // console.log(binaryRepresentation(3));
 
-const factorial = (num) => {
+// const factorial = (num) => {
 
-  if(num === 0){
-    return "1"
-  }
+//   if(num === 0){
+//     return "1"
+//   }
 
-  // const factNum = factorial(num - 1);
+//   // const factNum = factorial(num - 1);
 
-  // // console.log(factNum)
-  // return num * factNum;
-return num * factorial(num - 1);
+//   // // console.log(factNum)
+//   // return num * factNum;
+// return num * factorial(num - 1);
 
-}
+// }
 
-console.log(factorial(5));
+// console.log(factorial(5));
+
+// const fibonacci = (originalSequence, nth) => {
+//   // what's the nth number of the fibonacci sequence?
+//   // if the length of the sequence = nth, stop the function and return that last number
+  
+//   // console.log('entered', originalSequence);
+//   if (originalSequence.length === nth) {
+//     return originalSequence[originalSequence.length - 1];
+//   }
+    
+//   // let originalSequence = arr;
+//   // console.log('OG 1: ', originalSequence);
+
+//   const newNumber = originalSequence[originalSequence.length - 1] + originalSequence[originalSequence.length-2];
+//   // console.log('new number:', newNumber);
+
+//   // const updatedSequence = originalSequence.push(newNumber);
+//   // console.log('new sequence:', newSequence);
+  
+//   originalSequence.push(newNumber);
+//   // console.log('OG 2: ', originalSequence);
+
+  
+//   // if (nth === 0) return originalSequence.push(newNumber);
+
+//   return fibonacci(originalSequence, nth);
+
+//   // return [originalSequence, ...originalSequence.length - 1 + originalSequence.length - 2, fibonacci(nth - 1)];
+
+// };
+
+// console.log(fibonacci([0, 1], 5));
